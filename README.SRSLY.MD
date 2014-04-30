@@ -3,7 +3,7 @@ There's a couple of things you should know about the Titanium CLI hook system.
 First, There are two types of hooks:
 Event Hooks and Function Hooks.
 
-From titanium_cli/lib.hook.js [lines 147-152]
+From titanium_cli/lib/hook.js [lines 147-152]
 
 This comment explains the relationship between a function hook and an event hook
 
