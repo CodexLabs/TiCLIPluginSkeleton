@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+/*jslint node: true */
+'use strict';
+
+var path = require('path'),
+    exec = require('./lib/exec');
+
+console.log('Installing titanium stuff...');
+
+console.log('--- Installing Build Command(s) ---');
+
+console.log('--- Look a Squirrel.. over there... ---');
+
+
+
+
+
+
+
+
+

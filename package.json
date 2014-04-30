@@ -1,0 +1,39 @@
+{
+  "name": "TiCLICommandSkeleton",
+  "version": "1.0.0",
+  "description": "A skeleton for creating Ti ClI Hooks (titanium commands)",
+  "scripts": {
+    "postinstall": "./install",
+     "test": "mocha test -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/CodexLabs/TiCLICommandSkeleton"
+  },
+  "keywords": [
+    "Titanium",
+    "CLI",
+    "hooks",
+  ],
+  "maintainers": [
+    {
+      "name": "Andrew McElroy",
+      "email": "amcelroy@codexlabs.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/CodexLabs/TiCLICommandSkeleton/issues"
+  },
+  "homepage": "http://github.com/CodexLabs/TiCLICommandSkeleton",
+  "dependencies": {
+    "commander": "^2.1.0",
+    "pkginfo": "^0.3.0",
+    "node-appc": "^0.2.0",
+		"tiapp":"0.0.2"
+  },
+   "devDependencies": {
+   "mocha": "*",
+   "should": ">= 0.0.1"
+ }
+}
