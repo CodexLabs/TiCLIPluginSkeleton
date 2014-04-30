@@ -1,5 +1,5 @@
 {
-  "name": "TiCLICommandSkeleton",
+  "name": "TiCLIPluginSkeleton",
   "version": "1.0.0",
   "description": "A skeleton for creating Ti ClI Hooks (titanium commands)",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/CodexLabs/TiCLICommandSkeleton"
+    "url": "http://github.com/CodexLabs/TiCLIPluginSkeleton"
   },
   "keywords": [
     "Titanium",
@@ -23,9 +23,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "http://github.com/CodexLabs/TiCLICommandSkeleton/issues"
+    "url": "http://github.com/CodexLabs/TiCLIPluginSkeleton/issues"
   },
-  "homepage": "http://github.com/CodexLabs/TiCLICommandSkeleton",
+  "homepage": "http://github.com/CodexLabs/TiCLIPluginSkeleton",
   "dependencies": {
     "commander": "^2.1.0",
     "pkginfo": "^0.3.0",

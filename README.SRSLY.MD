@@ -14,3 +14,6 @@ This comment explains the relationship between a function hook and an event hook
 * @param {Function} callback - A callback when the event has finished firing
 * @returns {Object} this
 
+
+Next, for an exhaustive list of all current Event and Function Hooks as of Ti 3.2.2 see plugin/commandName.js past line number 61
+
