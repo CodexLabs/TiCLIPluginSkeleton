@@ -1,11 +1,14 @@
 {
   "name": "TiCLIPluginSkeleton",
-  "version": "1.0.0",
-  "description": "A skeleton for creating Ti ClI Hooks (titanium commands)",
+  "version": "1.0.10",
+  "description": "A skeleton for creating Ti ClI Plugins (titanium commands)",
   "scripts": {
     "postinstall": "./install",
-     "test": "mocha test -w"
+    "test": "mocha test -w"
   },
+	"config": {
+		    "unsafe-perm":true
+		},
   "repository": {
     "type": "git",
     "url": "http://github.com/CodexLabs/TiCLIPluginSkeleton"
@@ -14,6 +17,7 @@
     "Titanium",
     "CLI",
     "hooks",
+    "Plugins"
   ],
   "maintainers": [
     {

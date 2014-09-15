@@ -10,13 +10,13 @@ console.log('Installing titanium stuff...');
 
 console.log('--- Installing Build Command(s) ---');
 
-console.log('--- Look a Squirrel.. over there... ---');
 
+ 
 
+			// I am making the assumption that I have titanium. This really should be challenged  
+			exec('ti', ['config', '-a', 'paths.commands', path.join( __dirname , 'plugin')], null, function() {
+			console.info('Titanium CLI command installed.');
 
+		 
 
-
-
-
-
-
+});
