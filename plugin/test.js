@@ -75,3 +75,7 @@ exports.run = function(logger, config, cli, finished) {
         throw "Invalid Titanium project location";
     }
 };
+
+
+// moved the commented out function and event hooks to hook-documentation.md
+// it was breaking this code
