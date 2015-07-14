@@ -3,7 +3,7 @@
   "version": "1.0.10",
   "description": "A skeleton for creating Ti ClI Plugins (titanium commands)",
   "scripts": {
-    "postinstall": "./install",
+    "postinstall": "node install",
     "test": "mocha test -w"
   },
 	"config": {
@@ -33,7 +33,7 @@
   "dependencies": {
     "commander": "^2.1.0",
     "pkginfo": "^0.3.0",
-    "node-appc": "^0.2.0",
+    "node-appc": "0.2.26",
 		"tiapp":"0.0.2"
   },
    "devDependencies": {
