@@ -69,7 +69,7 @@ exports.run = function(logger, config, cli, finished) {
             
             require('../lib/run_' + (platform === 'iphone' ? 'ios' : platform))(logger, config, cli, projectDir, finished);
         };
-
+		run();
     
     } else {
         throw "Invalid Titanium project location";
